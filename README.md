@@ -4,6 +4,7 @@ Waterfall
 > [!CAUTION]
 > This project has reached end of life and is no longer maintained.  
 > We recommend you transition to [Velocity](https://papermc.io/software/velocity). For more information, see the [announcement](https://forums.papermc.io/threads/1088/).
+> Actually, Not Anymore, Like Craftbukkit Under Spigot, Waterfall will Rise Again Under GAME Client-Server Software Developer Company.
 
 Waterfall is a fork of the well-known [BungeeCord](https://github.com/SpigotMC/BungeeCord) server teleportation suite.
 
