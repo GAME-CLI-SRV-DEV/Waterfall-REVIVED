@@ -5,10 +5,10 @@ Subject: [PATCH] Expand packet-decode-logging usage
 
 
 diff --git a/proxy/src/main/java/net/md_5/bungee/netty/HandlerBoss.java b/proxy/src/main/java/net/md_5/bungee/netty/HandlerBoss.java
-index 206f4227..954ffbc9 100644
+index 6caf30cd..75e802d2 100644
 --- a/proxy/src/main/java/net/md_5/bungee/netty/HandlerBoss.java
 +++ b/proxy/src/main/java/net/md_5/bungee/netty/HandlerBoss.java
-@@ -152,6 +152,14 @@ public class HandlerBoss extends ChannelInboundHandlerAdapter
+@@ -155,6 +155,14 @@ public class HandlerBoss extends ChannelInboundHandlerAdapter
                      ProxyServer.getInstance().getLogger().log( Level.WARNING, "{0} - read timed out", handler );
                  } else if ( cause instanceof DecoderException )
                  {
